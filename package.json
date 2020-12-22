@@ -6,10 +6,12 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0-beta.1",
+    "postcss-modules": "^4.0.0"
   },
   "scripts": {
-    "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./"
+    "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./",
+    "serve": "npx parcel src/index.html"
   },
   "license": "MIT"
 }
