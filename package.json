@@ -1,13 +1,11 @@
 {
   "name": "brodul-inztagram",
-  "dependencies": {
-    "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.1",
-    "tailwindcss": "^2.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
-    "postcss-modules": "^4.0.0"
+    "tailwindcss": "^2.0.2",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1"
   },
   "scripts": {
     "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./",
